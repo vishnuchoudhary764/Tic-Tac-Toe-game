@@ -1,2 +1,3 @@
 # Tic-Tac-Toe-game
 i created a this game using HTML and CSS to practice my skills.
+Now i am working on add functionality to it....
