@@ -95,11 +95,19 @@
     #new-btn{
         margin-top:10rem;
     }
-    .msg-container{
-        margin-top:70vmin;
-        height: 100vmin;
+    .container{
+        height:70vh;
+        width: 100vw;
     }
-
+    .game{
+       width: 90vw;
+        height:60vh;
+        gap:4rem;
+    }
+    
+   
     
 }
+    
+
     
