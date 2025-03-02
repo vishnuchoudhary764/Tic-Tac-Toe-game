@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+    body{
+        background-color: #548687;
+        text-align: center;
+       
+  
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.game{
+   
+    height:60vmin;
+    width: 60vmin;
+    border-radius:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5vmin;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:18vmin;
+    width: 18vmin;
+    border-radius:1rem ;
+   border:none;
+   box-shadow: 0 0 1rem rgba(0,0,0,0.7);
+   background-color: aliceblue;
+   color: #b0413e;
+   font-size:10vmin;
+
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top:1rem;
+  
+}
+#reset-btn{
+    font-size:1rem;
+    padding:1rem;
+    box-shadow: 0 0 1rem (grey);
+   background-color: #191913;
+   color:#fff;
+    border-radius:1rem;
+    border:none;
+    margin-bottom:4rem;
+   
+}
+#new-btn{
+    font-size:1rem;
+    padding:1rem;
+    box-shadow: 0 0 10px (grey);
+   background-color: #191913;
+   color:#fff;
+    border-radius:1rem;
+    border:none;
+}
+.hide{
+    display: none;
+}
+.msg-container{
+    margin-top:25vmin;
+    height:80vmin;
+}
+#msg{
+    font-size:8vmin;
+}
+.gamename{
+   margin-top:4vmin;
+}
+#reset-btn:hover{
+    background-color: #484846;
+
+}
+#new-btn:hover{
+    background-color: #484846;
+
+}
+
+    
+@media(max-width: 600px){
+    #new-btn{
+        margin-top:10rem;
+    }
+    .msg-container{
+        margin-top:70vmin;
+        height: 100vmin;
+    }
+
+    
+}
+    
