@@ -96,18 +96,20 @@
         margin-top:10rem;
     }
     .container{
+       padding:0.5rem;
         height:70vh;
-        width: 100vw;
+        width:100vw;
     }
     .game{
-       width: 90vw;
-        height:60vh;
-        gap:4rem;
+       width:88vw;
+        height:55vh;
+        gap:12vmin;
+       
     }
-    
+    .msg-container{
+        margin-top:50vmin;
+        height:80vmin;
+    }
    
-    
 }
-    
-
     
