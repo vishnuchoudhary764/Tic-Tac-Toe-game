@@ -101,9 +101,9 @@
         width:100vw;
     }
     .game{
-       width:88vw;
-        height:55vh;
-        gap:12vmin;
+      width:88vw;
+        height:43vh;
+       gap:16vmin;
        
     }
     .msg-container{
