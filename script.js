@@ -49,8 +49,15 @@ const checkWinner = () => {
             showWinner(pos1);
             return; 
         }
+         if([...boxes].every(box => box.innerText !== "")){
+            showDraw()
+          }
     }
 };
+const showDraw=()=> {
+    msgcontainer.classList.remove("hide")
+    msg.innerText=`Match Draw , Play Again`
+}
 const showWinner=(winner)=>{
     msgcontainer.classList.remove("hide")
     msg.innerText=`congratulations,Winner is ${winner}`
