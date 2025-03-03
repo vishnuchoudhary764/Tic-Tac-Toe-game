@@ -23,11 +23,13 @@ boxes.forEach((box) => {
             //player0
             box.innerText = "O";
             turnO=false;
+             box.style.pointerEvents = "none"
         }
         else{
             //playerx
             box.innerText = "X";
             turnO = true;
+             box.style.pointerEvents = "none"
            
 
         }
