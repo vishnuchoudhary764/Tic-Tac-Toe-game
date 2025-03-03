@@ -73,13 +73,13 @@
 }
 .msg-container{
     margin-top:25vmin;
-    height:80vmin;
+    height:90vmin;
 }
 #msg{
     font-size:8vmin;
 }
 .gamename{
-   margin-top:4vmin;
+   margin-top:10vmin;
 }
 #reset-btn:hover{
     background-color: #484846;
@@ -108,7 +108,10 @@
     }
     .msg-container{
         margin-top:50vmin;
-        height:80vmin;
+        height:80vh;
+    }
+     .gamename{
+        margin-top:30vmin;
     }
    
 }
